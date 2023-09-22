@@ -19,6 +19,7 @@ namespace ss
 
 	void MeshRenderer::Update()
 	{
+		//·ÎÁ÷
 	}
 
 	void MeshRenderer::LateUpdate()

@@ -1,9 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{62beac91-7692-423f-9b03-248c8ef109b5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Scens">
+      <UniqueIdentifier>{74557d41-c42b-4ed8-83b1-4eef20d07500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{ef7579cd-e5a1-4c80-8b1c-3879a105be26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ssPlayScene.h">
+      <Filter>Scens</Filter>
+    </ClInclude>
+    <ClInclude Include="ssPlayerScript.h" />
+    <ClInclude Include="ssLoadScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ssPlayScene.cpp">
+      <Filter>Scens</Filter>
+    </ClCompile>
+    <ClCompile Include="ssPlayerScript.cpp" />
   </ItemGroup>
 </Project>

@@ -3,8 +3,14 @@
 
 #include "framework.h"
 #include "Editor_Windows.h"
-
 #include "ssApplication.h"
+#include "..\\SSEngine_Windows\\ssLoadScene.h"
+
+//#ifdef  _DEBUG
+//#pragma comment(lib, "..\\x64\\Debug\\SSEngine_Windows.lib")
+//#else
+//#pragma comment(lib, "..\\x64\\Release\\SSEngine_Windows.lib")
+//#endif 
 
 #define MAX_LOADSTRING 100
 
@@ -126,6 +132,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 
     application.SetWindow(hWnd, 1600, 900);
     application.Initialize();
+    ss::InitializeScenes();
 
     return TRUE;
 }

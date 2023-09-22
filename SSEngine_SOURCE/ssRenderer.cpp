@@ -53,11 +53,11 @@ namespace ss::renderer
 
 	void LoadShader()
 	{
-		shader->Create(eShaderStage::VS, L"TriangleVS.hlsl", "VS_Test");
-		shader->Create(eShaderStage::PS, L"TrianglePS.hlsl", "PS_Test");
+		shader->Create(eShaderStage::VS, L"VertexShader.hlsl", "VS_Test");
+		shader->Create(eShaderStage::PS, L"PixelShader.hlsl", "PS_Test");
 		Resources::Insert(L"TriangleShader", shader);
 		//GetDevice()->CreateShader(eShaderStage::NONE);
-		//GetDevice()->CreateVertexShader();`
+		//GetDevice()->CreateVertexShader();
 				// Input layout 정점 구조 정보
 		InputLayouts[0].AlignedByteOffset = 0;
 		InputLayouts[0].Format = DXGI_FORMAT_R32G32B32_FLOAT;

@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ssLoadScene.h" />
+    <ClInclude Include="ssPlayerScript.h" />
+    <ClInclude Include="ssPlayScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ssPlayerScript.cpp" />
+    <ClCompile Include="ssPlayScene.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

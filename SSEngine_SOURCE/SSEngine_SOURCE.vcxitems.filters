@@ -132,6 +132,9 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)ssCanvas.h">
       <Filter>Engine\System</Filter>
     </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssScript.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)ssComponent.cpp">
@@ -193,6 +196,9 @@
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)ssSceneManager.cpp">
       <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssScript.cpp">
+      <Filter>Engine\Component</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

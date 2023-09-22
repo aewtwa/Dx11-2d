@@ -18,7 +18,7 @@ namespace ss
 	void Application::Run()
 	{
 		Update();
-		FixedUpdate();
+		LateUpdate();
 		Render();
 	}
 
@@ -39,7 +39,7 @@ namespace ss
 		SceneManager::Update();
 	}
 
-	void Application::FixedUpdate()
+	void Application::LateUpdate()
 	{
 
 	}
