@@ -31,16 +31,168 @@
     <Filter Include="Engine\System">
       <UniqueIdentifier>{0432b02b-6bd7-48ac-8368-882002a58b27}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Graphics\API">
+      <UniqueIdentifier>{3161fe26-cea4-4c6b-91a0-c5066f97ca1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Helpers\Input">
+      <UniqueIdentifier>{4de96257-5577-4a9f-ac08-d3b4a686ea1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Helpers\Mathatics">
+      <UniqueIdentifier>{018d8bc8-5662-4486-ac31-ef16961fc982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Helpers\Time">
+      <UniqueIdentifier>{a60ec9c5-742c-48a0-a296-4744f35873da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource\Manager">
+      <UniqueIdentifier>{d390b0c9-a450-46cf-a4a0-223cf9b53c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource\Mesh">
+      <UniqueIdentifier>{baac6856-47ea-4d00-857c-290c039fdaf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource\Shader">
+      <UniqueIdentifier>{c6d46f16-599a-4fe0-8d15-8f51029f1162}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)CommonInclude.h">
       <Filter>Engine\Common</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)yaEnums.h">
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssEnums.h">
       <Filter>Engine\Common</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)YamYamEngine.h">
+    <ClInclude Include="$(MSBuildThisFileDirectory)SSEngine.h">
       <Filter>Engine\Common</Filter>
     </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssComponent.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssMeshRenderer.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssTransform.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssEntity.h">
+      <Filter>Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssGameObject.h">
+      <Filter>Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssGraphics.h">
+      <Filter>Engine\Graphics\API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssGraphicsDevice.h">
+      <Filter>Engine\Graphics\API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssGraphicsDevice_DX11.h">
+      <Filter>Engine\Graphics\API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssRenderer.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssInput.h">
+      <Filter>Engine\Helpers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssMath.h">
+      <Filter>Engine\Helpers\Mathatics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssTime.h">
+      <Filter>Engine\Helpers\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssMaterial.h">
+      <Filter>Engine\High Level Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssApplication.h">
+      <Filter>Engine\High Level Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssResources.h">
+      <Filter>Engine\Resource\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssMesh.h">
+      <Filter>Engine\Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssResource.h">
+      <Filter>Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssConstantBuffer.h">
+      <Filter>Engine\Resource\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssShader.h">
+      <Filter>Engine\Resource\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssSceneManager.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssLayer.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssScene.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssCanvas.h">
+      <Filter>Engine\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssComponent.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssMeshRenderer.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssTransform.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssEntity.cpp">
+      <Filter>Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssGameObject.cpp">
+      <Filter>Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssGraphicsDevice_DX11.cpp">
+      <Filter>Engine\Graphics\API</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssRenderer.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssInput.cpp">
+      <Filter>Engine\Helpers\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssMath.cpp">
+      <Filter>Engine\Helpers\Mathatics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssTime.cpp">
+      <Filter>Engine\Helpers\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssApplication.cpp">
+      <Filter>Engine\High Level Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssMaterial.cpp">
+      <Filter>Engine\High Level Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssResources.cpp">
+      <Filter>Engine\Resource\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssMesh.cpp">
+      <Filter>Engine\Resource\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssResource.cpp">
+      <Filter>Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssConstantBuffer.cpp">
+      <Filter>Engine\Resource\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssShader.cpp">
+      <Filter>Engine\Resource\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssLayer.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssScene.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssSceneManager.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

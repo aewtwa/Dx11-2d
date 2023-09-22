@@ -11,6 +11,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shaders_SOURCE", "Shaders_S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSEngine_SOURCE", "SSEngine_SOURCE\SSEngine_SOURCE.vcxitems", "{231E9165-BE71-40CC-A2A2-4F159412D862}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor_Windows", "Editor_Windows\Editor_Windows.vcxproj", "{984E9F4D-77CE-4B7D-AEA1-ECAADF9D739B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C713AE0-62C0-44F6-ADAA-35E765022665} = {9C713AE0-62C0-44F6-ADAA-35E765022665}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -27,11 +32,27 @@ Global
 		{9C713AE0-62C0-44F6-ADAA-35E765022665}.Release|x64.Build.0 = Release|x64
 		{9C713AE0-62C0-44F6-ADAA-35E765022665}.Release|x86.ActiveCfg = Release|Win32
 		{9C713AE0-62C0-44F6-ADAA-35E765022665}.Release|x86.Build.0 = Release|Win32
+		{984E9F4D-77CE-4B7D-AEA1-ECAADF9D739B}.Debug|x64.ActiveCfg = Debug|x64
+		{984E9F4D-77CE-4B7D-AEA1-ECAADF9D739B}.Debug|x64.Build.0 = Debug|x64
+		{984E9F4D-77CE-4B7D-AEA1-ECAADF9D739B}.Debug|x86.ActiveCfg = Debug|Win32
+		{984E9F4D-77CE-4B7D-AEA1-ECAADF9D739B}.Debug|x86.Build.0 = Debug|Win32
+		{984E9F4D-77CE-4B7D-AEA1-ECAADF9D739B}.Release|x64.ActiveCfg = Release|x64
+		{984E9F4D-77CE-4B7D-AEA1-ECAADF9D739B}.Release|x64.Build.0 = Release|x64
+		{984E9F4D-77CE-4B7D-AEA1-ECAADF9D739B}.Release|x86.ActiveCfg = Release|Win32
+		{984E9F4D-77CE-4B7D-AEA1-ECAADF9D739B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A75A8199-886E-4254-99BB-A966111F6C31}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SSEngine_SOURCE\SSEngine_SOURCE.vcxitems*{231e9165-be71-40cc-a2a2-4f159412d862}*SharedItemsImports = 9
+		Shaders_SOURCE\Shaders_SOURCE.vcxitems*{74ab2521-f882-48a3-bbf3-c1b5f3fba499}*SharedItemsImports = 9
+		Editor_SOURCE\Editor_SOURCE.vcxitems*{984e9f4d-77ce-4b7d-aea1-ecaadf9d739b}*SharedItemsImports = 4
+		SSEngine_SOURCE\SSEngine_SOURCE.vcxitems*{984e9f4d-77ce-4b7d-aea1-ecaadf9d739b}*SharedItemsImports = 4
+		SSEngine_SOURCE\SSEngine_SOURCE.vcxitems*{9c713ae0-62c0-44f6-adaa-35e765022665}*SharedItemsImports = 4
+		Editor_SOURCE\Editor_SOURCE.vcxitems*{e91a60e4-1622-421d-bfae-102929f86d0a}*SharedItemsImports = 9
 	EndGlobalSection
 EndGlobal

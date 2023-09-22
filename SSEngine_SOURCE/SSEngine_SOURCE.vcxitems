@@ -15,7 +15,52 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)CommonInclude.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)yaEnums.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)YamYamEngine.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssApplication.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssCanvas.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssConstantBuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssEntity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssGameObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssGraphics.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssGraphicsDevice.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssGraphicsDevice_DX11.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssInput.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssLayer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssMaterial.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssMath.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssMesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssMeshRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssResource.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssResources.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssSceneManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssShader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssTime.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssTransform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ssEnums.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SSEngine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssApplication.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssComponent.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssConstantBuffer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssEntity.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssGameObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssGraphicsDevice_DX11.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssInput.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssLayer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssMaterial.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssMath.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssMesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssMeshRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssResource.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssResources.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssSceneManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssShader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssTime.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ssTransform.cpp" />
   </ItemGroup>
 </Project>
